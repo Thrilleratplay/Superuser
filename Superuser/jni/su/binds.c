@@ -35,6 +35,7 @@
 #include <selinux/selinux.h>
 #include <arpa/inet.h>
 #include "binds.h"
+#include <string.h>
 
 int bind_foreach(bind_cb cb, void* arg) {
     int res = 0;
